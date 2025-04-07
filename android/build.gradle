@@ -25,7 +25,8 @@ apply plugin: 'com.android.library'
 apply plugin: 'kotlin-android'
 
 android {
-    compileSdkVersion 31
+    compileSdkVersion 34
+    namespace 'com.gunzilla.wallet.flutterWebAuth'
 
     sourceSets {
         main.java.srcDirs += 'src/main/kotlin'
